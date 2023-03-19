@@ -1,0 +1,29 @@
+{
+    "plant_info": [
+
+        {
+            "id": "0",
+            "name": "microgreens",
+            "hours_to_mature": "168",
+            "mature_radius": "1",
+            "H_water_freq": "50"
+        },
+
+        {
+            "id": "1",
+            "name": "red_radish",
+            "hours_to_mature": "672",
+            "mature_radius": "4",
+            "H_water_freq": "30"
+        },
+
+        {
+            "id": "2",
+            "name": "bok_choy",
+            "hours_to_mature": "1080",
+            "mature_radius": "10",
+            "H_water_freq": "48"
+        }
+
+    ]
+}
