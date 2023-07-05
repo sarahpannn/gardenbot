@@ -1,7 +1,18 @@
 import torch
 import torch.nn as nn
-
 import torchvision.models as models
+
+# possible actions:
+# move to (absolute position)
+# move relative
+# control peripherals
+# read sensor
+# wait
+# send message
+# take photo
+# water plant
+# plant plant
+# suppress weed
 
 class ActorCritic(nn.module):
     def __init__(self, hidden_size):
